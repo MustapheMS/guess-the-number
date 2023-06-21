@@ -9,7 +9,7 @@ document.querySelector(".check").addEventListener('click', function(){
     if(correctNumber === randomNumber){
         document.querySelector(".message").innerText = "Correct Number 💯👏"
         document.querySelector(".number").innerText = correctNumber
-        document.querySelector("body").style.backgroundColor = "#60b347"
+        document.querySelector("body").style.backgroundColor = "#green"
         if(score > highScore){
             highScore = score
             document.querySelector(".highscore").innerText = highScore;
